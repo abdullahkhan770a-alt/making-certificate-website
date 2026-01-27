@@ -1,0 +1,808 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(26, 34, 52);
+}
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(4, 4, 49, 0.877);
+  color: white;
+  padding-block: 10px;
+}
+nav img {
+  width: 180px;
+  color: white;
+  margin-top: -7px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 25px;
+}
+#yellow-bor {
+  border: 3px solid yellow;
+  padding: 10px;
+  border-radius: 20px;
+}
+nav ul li {
+  list-style-type: none;
+  margin-top: 12px;
+}
+
+/* top section */
+#top-sec {
+  display: flex;
+  margin: 170px 70px;
+}
+.f1 h1,
+P {
+  color: white;
+}
+#blue-color {
+  color: blue;
+}
+.blu-bor img {
+  width: 20px;
+}
+
+.blu-bor {
+  display: flex;
+  gap: 0.7rem;
+  width: 380px;
+  justify-content: center;
+  border: 3px solid dodgerblue;
+  border-radius: 10px;
+  padding: 7px;
+  margin-block: 50px;
+}
+.blu-bor a,
+#create-a {
+  text-decoration: none;
+  color: white;
+}
+
+#message img {
+  width: 25px;
+}
+#message {
+  display: flex;
+  gap: 0.5rem;
+  width: 380px;
+  border-radius: 10px;
+  padding: 7px;
+  border: 2px solid white;
+  margin-top: 10px;
+}
+#message #mes-inp {
+  border: none;
+  width: 100%;
+  margin-top: -4px;
+  background-color: rgb(26, 34, 52);
+}
+.site-img img {
+  width: 600px;
+}
+
+/* sec top */
+
+.sec-top {
+  display: flex;
+  gap: 5rem;
+  margin: 30px 70px;
+}
+.why-img {
+  display: grid;
+  grid-template: repeat(2, auto) / repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 80px;
+}
+.why p {
+  color: white;
+}
+#left {
+  position: relative;
+  left: 100px;
+  top: -35px;
+}
+#dodger-color {
+  color: dodgerblue;
+}
+.cen-btn {
+  margin-top: 20px;
+  text-align: center;
+}
+.cen-btn button {
+  background-color: blue;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 7px;
+}
+.research {
+  margin-top: 120px;
+  text-align: center;
+  color: white;
+}
+.res-img {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 30px;
+}
+.i63 {
+  width: 400px;
+  padding: 20px;
+  background-color: rgb(160, 164, 168);
+
+  border-radius: 10px;
+  text-align: left;
+}
+
+#pa {
+  margin-top: 70px;
+}
+
+/* end of the research */
+
+#green {
+  color: mediumseagreen;
+}
+#aqua {
+  color: lightseagreen;
+}
+.available {
+  text-align: center;
+  margin: 90px 0px 30px 0px;
+  color: white;
+}
+.vue {
+  display: flex;
+  gap: 2rem;
+  background-color: rgb(26, 24, 24);
+  padding: 30px;
+  margin: 0px 70px;
+  border-radius: 10px;
+}
+.vue-img {
+  width: 1050px;
+  background-color: rgb(6, 245, 245);
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+.vue-img img {
+  margin: 15px 0px 30px 0px;
+}
+
+.evan {
+  display: flex;
+  gap: 1rem;
+  margin-top: 30px;
+  justify-content: center;
+  text-align: left;
+}
+.evan img {
+  width: 80px;
+  height: 80px;
+}
+.evan h4,
+h3 {
+  margin-top: 25px;
+}
+
+.first {
+  display: flex;
+  gap: 1rem;
+}
+.vue-text {
+  color: white;
+}
+.vue-text p {
+  margin-block: 30px;
+}
+.vue-text .button {
+  margin-top: 120px;
+}
+.button button {
+  background-color: rgb(34, 32, 32);
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  margin-top: 15px;
+  color: white;
+  font-size: 11px;
+}
+#blue-bg {
+  background-color: rgba(33, 33, 231, 0.884);
+  color: white;
+  padding: 14px 27px;
+  border-radius: 7px;
+  border: none;
+  margin-top: 50px;
+}
+
+/* end of the vue.js section */
+
+.javascript {
+  display: flex;
+  gap: 2rem;
+  background-color: rgb(26, 24, 24);
+  padding: 30px;
+  margin: 20px 70px;
+}
+
+.lightgreen {
+  background-color: rgb(94, 165, 24);
+  width: 900px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 50px;
+}
+.lightgreen img {
+  width: 140px;
+  margin-top: 30px;
+}
+.lightgreen h2 {
+  margin-top: 15px;
+}
+#gre-color {
+  color: gold;
+}
+.js-text {
+  color: white;
+}
+.js-text p {
+  margin-top: 30px;
+}
+.js-site {
+  display: flex;
+  gap: 1rem;
+}
+
+/* end of the javascript section */
+
+.angular {
+  background: linear-gradient(115deg, rgb(218, 31, 31), mediumvioletred, blue);
+}
+#mediumvioletred {
+  color: rgb(241, 8, 156);
+}
+.vue-text ul li {
+  margin-left: 20px;
+}
+
+/* end of the angular section */
+
+.darkgreen {
+  background-color: darkgreen;
+}
+#legreen {
+  color: rgb(6, 255, 39);
+}
+.darkgreen h4 {
+  margin-top: 25px;
+}
+
+.chopin {
+  margin-bottom: 20px;
+}
+#chopin-img {
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+}
+
+.nuxt-btn {
+  margin: 30px 0px -20px 0px;
+}
+
+/* end of the nuxt section */
+.aqua {
+  width: 1150px;
+  padding: 10px;
+  background-color: rgb(70, 167, 134);
+}
+#aqua-color {
+  color: aqua;
+}
+
+.aur-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-top: 70px;
+}
+
+.react-btn {
+  margin-top: 80px;
+}
+/* end of the react section */
+
+.liblue {
+  width: 970px;
+  background-color: royalblue;
+}
+.typ-btn {
+  margin-top: 20px;
+}
+
+/* end of the typescript section */
+
+.certification-comming {
+  text-align: center;
+  color: white;
+  margin: 170px 0px 70px 0px;
+}
+.ts {
+  background-color: rgb(29, 28, 28);
+  width: 600px;
+  padding: 20px;
+  color: white;
+  margin: 0px 70px;
+}
+.ts h4,
+button {
+  margin-top: 25px;
+}
+.ts-sit {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 10px;
+}
+
+.cer-competence {
+  display: flex;
+  gap: 2rem;
+  background-color: black;
+  color: white;
+  margin-top: 40px;
+  padding: 70px 30px;
+}
+.cer-competence img {
+  width: 150px;
+}
+.cer-competence-site h2,
+h6,
+h5 {
+  margin-top: 25px;
+}
+#blu-btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 12px 207px;
+  border-radius: 10px;
+  border: none;
+}
+
+/* end of the certification comming soon section  */
+
+.have-your {
+  text-align: center;
+  color: white;
+  margin-top: 170px;
+}
+.have-your h1 {
+  font-size: 60px;
+}
+#h3-center {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+.have-your p {
+  margin-top: 40px;
+}
+.many-div {
+  display: grid;
+  grid-template: repeat(8, auto) / repeat(2, 1fr);
+  gap: 1rem;
+  margin: 70px 70px;
+}
+
+.laravel {
+  background-color: rgb(37, 37, 41);
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.la1-site {
+  display: flex;
+  gap: 1rem;
+}
+.la1-site h2 {
+  margin-top: 9px;
+  font-size: 16px;
+}
+.la1-site #ai-img {
+  width: 60px;
+}
+.la2-site {
+  margin-top: 8px;
+}
+
+.input input {
+  width: 640px;
+  background-color: transparent;
+  border: 1.5px solid white;
+  border-radius: 7px;
+  padding: 10px;
+  color: white;
+}
+/* end of the many div */
+
+#tailor {
+  display: flex;
+  gap: 1rem;
+  color: white;
+}
+.tail-img img {
+  margin-left: -50px;
+}
+.tail-text {
+  position: relative;
+  right: 60px;
+  top: 140px;
+}
+
+/* end of the tail section */
+.location {
+  display: flex;
+  gap: 7rem;
+  margin: 0px 70px;
+}
+.loc-text {
+  color: white;
+}
+.loc-img {
+  border: 2px solid blue;
+  width: 500px;
+  padding: 20px;
+}
+.loc-text p {
+  margin-top: 25px;
+}
+.inside {
+  background-color: midnightblue;
+}
+.inside div {
+  margin-top: 30px;
+  padding: 20px;
+  color: white;
+}
+.loc-img .inside h5 {
+  background-color: rgb(55, 55, 235);
+  text-align: center;
+  color: white;
+  padding: 8px;
+}
+.evert {
+  display: flex;
+  gap: 2rem;
+  margin-top: 20px;
+}
+.evert img {
+  width: 60px;
+}
+/* end of the loc section */
+
+.introducing {
+  display: flex;
+  gap: 5rem;
+
+  margin: 70px 70px;
+}
+.intro-text {
+  color: white;
+}
+.intro-text p {
+  margin-top: 50px;
+}
+
+/* end of the introducing section */
+
+.h-bt-cen {
+  text-align: center;
+  color: white;
+}
+.h-bt-cen h1 {
+  font-size: 55px;
+}
+.bt {
+  background-color: transparent;
+  border: 1px solid dodgerblue;
+  padding: 7px 25px;
+  color: white;
+  border-radius: 7px;
+  margin: 0px 5px;
+}
+.bt-bl {
+  background-color: dodgerblue;
+  border: none;
+  padding: 7px 25px;
+  color: white;
+  border-radius: 7px;
+}
+.down-img {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 28px 70px;
+}
+.down-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+.vi-btn {
+  text-align: center;
+}
+#v-btn {
+  background-color: dodgerblue;
+  border: none;
+  padding: 17px 40px;
+  color: white;
+  border-radius: 5px;
+}
+/* end of the download section */
+
+.footer {
+  background-color: darkblue;
+  padding: 20px;
+  margin-top: 70px;
+}
+
+.inp-btn {
+  border: 1px solid white;
+  padding: 0px 10px;
+  width: 400px;
+  height: 45px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.inp-btn input {
+  width: 90%;
+  background-color: transparent;
+  border: none;
+  margin-top: 8px;
+}
+.inp-btn img {
+  margin-top: -22px;
+}
+.fo-sit {
+  display: flex;
+  gap: 0.5rem;
+}
+.inp-btn-site {
+  display: flex;
+  justify-content: space-between;
+}
+
+#b-btn {
+  background-color: blue;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 7px;
+  margin-top: 15px;
+}
+#mes-img {
+  width: 25px;
+  position: relative;
+  top: 10px;
+  right: 5px;
+}
+.black-footer {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+}
+.black-foot-site {
+  display: flex;
+  justify-content: space-around;
+  gap: 4rem;
+}
+.black-footer img {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 100%;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+/* end of the footer section */
+
+/* for mobile */
+
+@media (max-width: 768px) {
+  /* NAVBAR */
+  nav ul {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  nav img {
+    width: 140px;
+  }
+
+  /* TOP SECTION */
+  #top-sec {
+    flex-direction: column;
+    margin: 120px 20px;
+    gap: 2rem;
+  }
+
+  .site-img img {
+    width: 100%;
+  }
+
+  .blu-bor,
+  #message {
+    width: 100%;
+  }
+
+  /* WHY SECTION */
+  .sec-top {
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .why-img {
+    grid-template-columns: 1fr;
+  }
+
+  #left {
+    left: 0;
+    top: 0;
+  }
+
+  /* RESEARCH */
+  .res-img {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .i63 {
+    width: 100%;
+  }
+
+  /* VUE / JS / ANGULAR / ETC */
+  .vue,
+  .javascript {
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .vue-img,
+  .lightgreen,
+  .aqua,
+  .liblue {
+    width: 100%;
+  }
+
+  /* CERTIFICATION CARD */
+  .ts {
+    width: 100%;
+    margin: 20px;
+  }
+
+  .cer-competence {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #blu-btn {
+    padding: 12px;
+    width: 100%;
+  }
+
+  /* VOTING SECTION */
+  .many-div {
+    grid-template-columns: 1fr;
+    margin: 30px 20px;
+  }
+
+  .input input {
+    width: 100%;
+  }
+
+  /* TAILOR SECTION */
+  #tailor {
+    flex-direction: column;
+  }
+
+  .tail-img img {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .tail-text {
+    position: static;
+    margin: 20px;
+  }
+
+  /* LOCATION */
+  .location {
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .loc-img {
+    width: 100%;
+  }
+
+  /* INTRODUCING */
+  .introducing {
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .intro-img img {
+    width: 100%;
+  }
+
+  /* DOWNLOAD */
+  .down-img {
+    grid-template-columns: 1fr;
+    margin: 20px;
+  }
+
+  /* FOOTER */
+  .inp-btn-site {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .fo-sit {
+    flex-direction: column;
+  }
+
+  .inp-btn {
+    width: 100%;
+  }
+
+  .black-foot-site {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* for tablet  */
+
+@media (max-width: 1024px) {
+  #top-sec,
+  .sec-top,
+  .vue,
+  .javascript,
+  .location,
+  .introducing {
+    margin: 40px;
+  }
+
+  .why-img {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .down-img {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .vue-img,
+  .lightgreen {
+    width: 100%;
+  }
+}
